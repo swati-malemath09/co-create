@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Co-create Funding Organization</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      .body {
+        background-image: url(../bk.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      .div1 {
+        width: 350px;
+        margin: auto;
+        margin: 10 0 0 450px;
+        overflow: hidden;
+        padding: 75px;
+        background-color: #ffcc80;
+      }
+      h2 {
+        text-align: center;
+        padding: 10px;
+        color: black;
+      }
+      label {
+        color: white;
+        width: 200px;
+        padding-left: 10px;
+      }
+      .inputtext {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding-left: 8px;
+      }
+      #log_button {
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        padding-left: 1px;
+        color: black;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <h2>Login Information</h2>
+    <br />
+    <div
+      class="div1"
+      style="
+        border-color: #ffcc80;
+        border-width: 5px;
+        border-style: double;
+        border-radius: 10px;
+      "
+    >
+      <form action="login" name="web" method="post">
+        <label>UserName</label>
+        <input
+          type="text"
+          class="inputtext"
+          placeholder="Username"
+          name="name"
+          required
+        /><br /><br />
+        <label>Password</label>
+        <input
+          type="password"
+          class="inputtext"
+          placeholder="password"
+          name="password"
+          required
+        /><br /><br />
+        <a href="http://127.0.0.1:5500/index3.html">
+          <input
+            type="button"
+            name="login"
+            id="logbutton"
+            value="Login"
+            width="300px" /><br
+        /></a>
+      </form>
+    </div>
+  </body>
+</html>
